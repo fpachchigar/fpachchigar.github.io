@@ -5,23 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awsome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header id="left">
         <img class="profile-image" src="images/boys-dp-boy-profile-pictures-logo.avif" alt="profile image">
     
         <nav id="left-menu"> <!-- navigation link-->
+            <div class="profile">
+                <h1>  Hash Hash </h1>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="blank">📘</a>
+                    <a href="https://twitter.com" target="blank">📷</a>
+                    <a href="https://instagram.com" target="blank">🌐</a>
+                    <a href="https://linked-in.com" target="blank">🐦</a>
 
+            <nav class="vertical-navbar">
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+                </div>
+            </div>
+                 
         </nav>
     </header>
     <main id="right">
          <section id="banner">
             <div class="banner">
             <link rel="stylesheet" href="style.css">
-           
-            <h1> Hi, I m Hash Hash</h1>
-
-            <p> I am Developer</p>
+                <h1> Hi, I m Hash Hash</h1>
+                
+                    <p>I am a Developer</p>
             </div>
             <!-- section 1 -->
          </section>
@@ -29,10 +50,9 @@
             <h1> About me </h1>
             <p> I am passionate about software development and learning new technologies.
                 This is my personal portfolio site </p>
-            <div class="about-image">
+            <p> I am good at HTML, CSS, JavaScript</p>
+         <div class="about-image">
                 <img src="images/boys-dp-boy-profile-pictures-logo.avif" alt="profile-image">
-            
- 
          </div>
             <!-- section 2 -->
          </section>
@@ -45,7 +65,7 @@
             <h1> Portfolio </h1>      
                  <!-- section 4-->
                 <p>
-                  <img src="images/books-1.jpg" alt="portfolio images" class="responsive-image">
+                <img src="images/books-1.jpg" alt="portfolio images" class="responsive-image">
                  <img src="images/app-1.jpg" alt="portfolio images" class="responsive-image">
                  <img src="images/product-1.jpg" alt="portfolio images" class="responsive-image">
                  <img src="images/branding-1.jpg" alt="portfolio images" class="responsive-image">
@@ -65,12 +85,23 @@
             <!-- section 6-->
          </section>
          <section id="banner">
-            <h1> contact </h1>
+            <section class="contact-section">
+            <h1> contact us</h1>
+            <h2> Please reach out to us:</h2>
+            <p><strong>Email-hash@gmail.com</strong></p>
+            <p><strong>Phone- 0022888888</strong></p>
+            <p><strong>Address-  32, main road</strong></p>
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="email"  id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" row="5" required></textarea>
+                <button type="submit">Send message</button>
+            </form>
 
             <!--section 7-->
          </section>
-</main>
-
- </body>
+         </main>
 </body>
 </html>
